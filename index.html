@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+    <meta name="keywords" content="generator, liczby, generator liczb całkowitych">
+    <meta name="description"
+        content="Generator liczb całkowitych z wybranego przez użytkownika przedziału z filtrowaniem liczb podzielnych przez inną wybraną przez użytkownika liczbę. To przydatne narzędzie matematyczne dla różnych grup osób, takich jak studenci, naukowcy czy programiści.">
+    <meta name="author" content="Artur Nazim">
+    <title>Liczbomat</title>
+</head>
+
+<body>
+    <div id="numbersv1">
+        Wypisz liczby od: &nbsp&nbsp <input type="number" id="od"> &nbsp&nbsp
+        do: &nbsp&nbsp <input type="number" id="do">
+        <button onclick="wynik1()">Wypisz!</button>
+        <p id="wypisz1"></p>
+        <button onclick="funkcja('wypisz1')">Skopiuj!</button>
+    </div>
+
+    <div id="numbersv2">
+        Wypisz liczby podzielne przez: &nbsp&nbsp <input type="number" id="podzielne">
+        <button onclick="wynik2()">Wypisz!</button>
+        <p id="wypisz2"></p>
+        <button onclick="funkcja('wypisz2')">Skopiuj!</button>
+    </div>
+
+    <footer class="footer">
+        Created by Artur Nazim | Github: <a href="https://github.com/M1Z4N" target="_blank">M1Z4N</a>
+    </footer>
+</body>
+
+</html>
