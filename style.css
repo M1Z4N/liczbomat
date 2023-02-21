@@ -1,0 +1,55 @@
+.footer {
+    text-align: center;
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
+
+button {
+    padding: 5px;
+    border-radius: 14px;
+    border: none;
+}
+
+input {
+    padding: 5px;
+    border-radius: 14px;
+    border: none;
+    width: 20%;
+}
+
+* {
+    font-family: 'Baloo 2', cursive;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: linear-Gradient(to right top, #2f0581, #af17f1);
+    background-attachment: fixed;
+    color: white;
+}
+
+#numbersv1 {
+    width: 40%;
+    min-height: 35%;
+    border: 4px solid white;
+    border-radius: 30px;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#numbersv2 {
+    width: 40%;
+    min-height: 35%;
+    border: 4px solid white;
+    border-radius: 30px;
+    position: absolute;
+    left: 55%;
+    top: 15%;
+    padding: 5px;
+    text-align: center;
+}
